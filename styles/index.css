@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #173af4;
+  width: 1200px;
+  height: 900px;
 }
 
 nav ul {
@@ -30,8 +32,8 @@ nav ul {
 }
 
 header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .name p {
@@ -67,11 +69,258 @@ header {
 }
 
 section {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 25px;
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: 170px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 170px;
+}
+
+.project {
+  display: grid;
+  grid-template:
+    "calculadora proyecto2 proyecto3" 180px
+    "proyecto4 proyecto5 proyecto6" 180px/254px 254px 254px;
+  grid-gap: 100px;
+  width: 762px;
+  height: 360px;
+  margin: auto;
+}
+
+#calculadora {
+  grid-area: calculadora;
+  border: 1px solid white;
+}
+
+#proyecto2 {
+  grid-area: proyecto2;
+  border: 1px solid white;
+}
+
+#proyecto3 {
+  grid-area: proyecto3;
+  border: 1px solid white;
+}
+
+#proyecto4 {
+  grid-area: proyecto4;
+  border: 1px solid white;
+}
+
+#proyecto5 {
+  grid-area: proyecto5;
+  border: 1px solid white;
+}
+
+#proyecto6 {
+  grid-area: proyecto6;
+  border: 1px solid white;
+}
+
+.project div hr {
+  margin-top: 130px;
+}
+
+.skills {
+  display: grid;
+  grid-template:
+    "html5 css3 javascript bootstrap" 52px
+    "tailwindcss sass git github" 52px
+    "react figma python java" 52px
+    "mysql postgresql sqlserver django" 52px/200px 200px 200px 200px;
+  grid-gap: 50px;
+}
+
+#html5 {
+  grid-area: html5;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#html5 img {
+  width: 50px;
+  height: 50px;
+}
+
+#css3 {
+  grid-area: css3;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#css3 img {
+  width: 50px;
+  height: 50px;
+}
+
+#javascript {
+  grid-area: javascript;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#javascript img {
+  width: 50px;
+  height: 50px;
+}
+
+#bootstrap {
+  grid-area: bootstrap;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#bootstrap img {
+  width: 75px;
+  height: 60px;
+}
+
+#tailwindcss {
+  grid-area: tailwindcss;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#tailwindcss img {
+  width: 63px;
+  height: 42px;
+}
+
+#sass {
+  grid-area: sass;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#sass img {
+  width: 70px;
+  height: 60px;
+}
+
+#git {
+  grid-area: git;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#git img {
+  width: 50px;
+  height: 50px;
+}
+
+#github {
+  grid-area: github;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#github img {
+  width: 64px;
+  height: 63px;
+}
+
+#react {
+  grid-area: react;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#react img {
+  width: 55px;
+  height: 50px;
+}
+
+#figma {
+  grid-area: figma;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#figma img {
+  width: 70px;
+  height: 50px;
+}
+
+#python {
+  grid-area: python;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#python img {
+  width: 51px;
+  height: 51px;
+}
+
+#java {
+  grid-area: java;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#java img {
+  width: 80px;
+  height: 70px;
+}
+
+#mysql {
+  grid-area: mysql;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#mysql img {
+  width: 57px;
+  height: 57px;
+}
+
+#postgresql {
+  grid-area: postgresql;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#postgresql img {
+  width: 57px;
+  height: 58px;
+}
+
+#sqlserver {
+  grid-area: sqlserver;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#sqlserver img {
+  width: 57px;
+  height: 58px;
+}
+
+#django {
+  grid-area: django;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#django img {
+  width: 60px;
+  height: 60px;
 }
