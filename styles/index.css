@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #173af4;
-  width: 1200px;
+  width: 1260px;
   height: 900px;
 }
 
@@ -28,12 +28,12 @@ nav ul {
   font-size: 80px;
   color: #ffffff;
   margin-top: 200px;
-  margin-left: 168px;
 }
 
 header {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .name p {
@@ -43,7 +43,6 @@ header {
   font-weight: 450;
   font-style: normal;
   color: #00b312;
-  margin-left: 168px;
   font-size: 32px;
 }
 
@@ -57,25 +56,30 @@ header {
   text-transform: uppercase;
   color: #000000;
   background-color: #00b312;
-  margin-left: 168px;
   border: none;
 }
 
 .photo img {
-  width: 446px;
-  height: 446px;
-  border-radius: 400px;
+  width: 420px;
+  height: 420px;
+  border-radius: 200px;
   margin-left: 25px;
 }
 
-section {
+section, footer {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 25px;
   color: #ffffff;
   text-align: center;
-  margin-top: 170px;
+  margin-top: 180px;
+}
+
+.projects .project div {
+  font-weight: 500;
+  font-size: 22px;
+  color: #00B312;
 }
 
 .project {
@@ -84,9 +88,8 @@ section {
     "calculadora proyecto2 proyecto3" 180px
     "proyecto4 proyecto5 proyecto6" 180px/254px 254px 254px;
   grid-gap: 100px;
-  width: 762px;
-  height: 360px;
-  margin: auto;
+  justify-content: center;
+  margin-top: 70px;
 }
 
 #calculadora {
@@ -126,11 +129,23 @@ section {
 .skills {
   display: grid;
   grid-template:
-    "html5 css3 javascript bootstrap" 52px
-    "tailwindcss sass git github" 52px
-    "react figma python java" 52px
-    "mysql postgresql sqlserver django" 52px/200px 200px 200px 200px;
+    "html5 css3 javascript bootstrap" 78px
+    "tailwindcss sass git github" 78px
+    "react figma python java" 78px
+    "mysql postgresql sqlserver django" 78px/210px 210px 210px 210px;
   grid-gap: 50px;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+section .skills div {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+section .skills div p {
+  font-weight: 500;
+  font-size: 20px;
 }
 
 #html5 {
