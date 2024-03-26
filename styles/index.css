@@ -339,3 +339,52 @@ section .skills div p {
   width: 60px;
   height: 60px;
 }
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 70px;
+}
+
+section .services div {
+  border: 1px solid black;
+  width: 250px;
+  height: 235px;
+  font-size: 20px;
+  color: #00B312;
+}
+
+section .services div h3 {
+  padding-top: 150px;
+}
+
+.blogs {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 70px;
+}
+
+section .blogs div {
+  border: 1px solid black;
+  width: 250px;
+  height: 235px;
+  font-size: 20px;
+  color: #00B312;
+}
+
+section .blogs div h3 {
+  padding-top: 150px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 70px;
+}
+
+footer {
+  padding-bottom: 170px;
+}
